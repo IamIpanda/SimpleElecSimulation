@@ -1,0 +1,62 @@
+
+========================== Nodes ==========================
+  Node 1
+  Voltage = 
+    [1000.0 Hz] 7.5
+    [300.0 Hz] 5.0
+    [0 Hz] -1.25
+  Node 2
+  Voltage = 
+    [1000.0 Hz] 0.0
+    [300.0 Hz] 0.0
+    [0 Hz] -2.5
+  Node 3
+  Voltage = 
+    [1000.0 Hz] -7.5
+    [300.0 Hz] -5.0
+    [0 Hz] -1.25
+  Node 4
+  Voltage = 
+    [1000.0 Hz] 22.5
+    [300.0 Hz] 15.0
+    [0 Hz] -1.25
+======================== Branches =========================
+  Branch 0 [1 => 0]
+    [1000.0 Hz] Currency = 7.5  Voltage = 7.5
+    [300.0 Hz] Currency = 5.0  Voltage = 5.0
+    [0 Hz] Currency = -1.25  Voltage = -1.25
+  Branch 1 [2 => 0]
+    [1000.0 Hz] Currency = 0.0  Voltage = 0.0
+    [300.0 Hz] Currency = 0.0  Voltage = 0.0
+    [0 Hz] Currency = -2.5  Voltage = -2.5
+  Branch 2 [3 => 0]
+    [1000.0 Hz] Currency = -7.5  Voltage = -7.5
+    [300.0 Hz] Currency = -5.0  Voltage = -5.0
+    [0 Hz] Currency = -1.25  Voltage = -1.25
+  Branch 3 [1 => 2]
+    [1000.0 Hz] Currency = 7.5  Voltage = 7.5
+    [300.0 Hz] Currency = 5.0  Voltage = 5.0
+    [0 Hz] Currency = 1.25  Voltage = 1.25
+  Branch 4 [2 => 3]
+    [1000.0 Hz] Currency = 7.5  Voltage = 7.5
+    [300.0 Hz] Currency = 5.0  Voltage = 5.0
+    [0 Hz] Currency = -1.25  Voltage = -1.25
+  Branch 5 [1 => 4]
+    [1000.0 Hz] Currency = -15.0  Voltage = -15.0
+    [300.0 Hz] Currency = -10.0  Voltage = -10.0
+    [0 Hz] Currency = 0.0  Voltage = 0.0
+  Branch 6 [4 => 3]
+    [1000.0 Hz] Currency = -15.0  Voltage = 30.0
+    [300.0 Hz] Currency = 0.0  Voltage = 20.0
+    [0 Hz] Currency = 0.0  Voltage = 0.0
+  Branch 7 [4 => 3]
+    [1000.0 Hz] Currency = 0.0  Voltage = 30.0
+    [300.0 Hz] Currency = -10.0  Voltage = 20.0
+    [0 Hz] Currency = 0.0  Voltage = 0.0
+  Branch 8 [2 => 0]
+    [1000.0 Hz] Currency = 0.0  Voltage = 0.0
+    [300.0 Hz] Currency = 0.0  Voltage = 0.0
+    [0 Hz] Currency = 5.0  Voltage = -2.5
+========================= Statics =========================
+ Static<direct> => -1.25
+=========================== End ===========================

@@ -1,0 +1,13 @@
+# example Elec script file 2
+# RLC
+
+make <<part1
+0, 1, Ua, 10, 5000
+0, 1, Ua, 10, 200
+1, 2, L, 0.001
+2, 3, C, 0.004
+3, 0, R, 10
+part1
+
+run
+output "输出样例/answer_example2.txt"

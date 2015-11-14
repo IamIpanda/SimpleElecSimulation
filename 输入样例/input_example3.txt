@@ -1,0 +1,15 @@
+# example Elec script file 3
+# RLC Scan
+
+make <<part1
+    0, 1, Ua, 10, 5000
+    1, 2, L, 0.001
+    2, 3, C, 0.004
+    3, 0, R, 100
+part1
+
+for i in 10..60
+    change "0: Ua, 10, #{i * 100}"
+    run
+    output "输出样例/answer_example3.txt"
+end
